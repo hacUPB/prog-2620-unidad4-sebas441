@@ -46,5 +46,5 @@ estado = ["despegue", "ascenso inicial", "ascenso", "ascenso", "ascenso", "nivel
 
 # Imprimir informe de despegue
 print("INFORME DE DESPEGUE:")
-for t, a, v, est in zip(tiempo, altitud, velocidad, estado):
+for t, a, v, est in zip(tiempo, altitud, velocidad, estado):  #el est son los estados del vuelo
     print(f"T+{t}s: Altitud={a}m, Velocidad={v}km/h, Fase={est}")

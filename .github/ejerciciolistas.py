@@ -5,11 +5,11 @@
 
 # Crear una lista con 100 números aleatorios entre 100 y 200
 
-lista = []
-for i in range(100):
-     lista.append(random.randint(100,200))
+# lista = []
+# for i in range(100):
+#      lista.append(random.randint(100,200))
 
-print(lista)
+# print(lista)
 
 # ahora que es max
 # mayor = max(lista)
@@ -31,11 +31,11 @@ print(lista)
 
 # calcular el menor de todos 
 
-inice = 0 
-may = lista[0]
-while indice < 99:
-    if may < lista[indice + 1]:
-        may = lista[indice + 1]
-    indice += 1 
+# inice = 0 
+# may = lista[0]
+# while indice < 99:
+#     if may < lista[indice + 1]:
+#         may = lista[indice + 1]
+#     indice += 1 
 
-print(f"El mayor calculando a mano es: {may}")
+# print(f"El mayor calculando a mano es: {may}")

@@ -3,10 +3,10 @@
 #  un iterable es cualquier objeto que implementa el método "__iter__()"" o "__getitem__()""
 
 # Iterando sobre una lista de sensores de aeronave
-#  sensores = ["temperatura", "presión", "velocidad", "altitud", "combustible"]
+sensores = ["temperatura", "presión", "velocidad", "altitud", "combustible"]
 
-#  for sensor in sensores:
-#      print(f"Comprobando sensor de {sensor}...")
+for sensor in sensores:
+    print(f"Comprobando sensor de {sensor}...")
 
 
 
